@@ -30,7 +30,7 @@ You also will have three graded checkpoints throughout the school year:
  </ol>
 <em>The product sample will count as your midterm examination grade, and the project pitch and product reflection will count as assessment grades in M1 and M3 respectively.</em>
 
-I highly recommend that you maintain an informal record of your efforts on this research project to ensure accurate reporting of progress and help me offer you meaningful feedback on your efforts as well as coming to English Help once a month to review your progress with me. These recommendations give you the accountability and extra support that prime you for success on a long-term project; however, they are not graded assignments.
+</br>I highly recommend that you maintain an informal record of your efforts on this research project to ensure accurate reporting of progress and help me offer you meaningful feedback on your efforts as well as coming to English Help once a month to review your progress with me. These recommendations give you the accountability and extra support that prime you for success on a long-term project; however, they are not graded assignments.
 
 I truly look forward to working with you throughout the year and offering your opportunities to develop your critical reading, academic writing, collaboration, and public speaking skills. Please do not hesitate to speak with me during English Help or reach out to me via email if you have any questions about this project.
 
