@@ -2,7 +2,7 @@
 
 This is the final for Early American Literature in the format of a website
 
-Requirements
+Requirements:
 
 <blockquote>
 Course Research Project
