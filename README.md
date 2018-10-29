@@ -1,6 +1,6 @@
 # EnglishFinal
 
-This is the final for Early American Literature
+This is the final for Early American Literature in the format of a website
 
 Requirements
 
