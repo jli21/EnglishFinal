@@ -6,7 +6,7 @@
 
 <blockquote>
   <h3>Course Research Project</h3>
-  <h3>English 2 - Early American Literature</h3>
+  <h4>English 2 - Early American Literature</h4>
 
 
 Welcome to my class! During this exciting academic journey, we will analyze the writings and lives of the people inhabiting early America in order to explore the impact that its past has had on the modern American nation. Each unit of study focuses on a key question that helps us explore this topic.
