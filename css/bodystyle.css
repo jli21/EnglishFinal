@@ -3,6 +3,12 @@
 	margin: 0;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+
+}
+
 html {
 	height: 100%;
 
@@ -16,13 +22,25 @@ body {
 	/*background-image: linear-gradient(#11aa88, #1166aa);*/
 	background-color: #6e6658;
 	/*background-image: url("../images/steelback2.jpg");*/
-	background-repeat: repeat;
+	/*background-repeat: repeat;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: 100%;*/
 
 }
 
 #space {
 	height: 170px;
+
+}
+
+#homemain {
+	margin: 40%;
+
+}
+
+#userbox {
+	height: 100%;
+	width: 100%;
+	background-color: #254e58;
 
 }
