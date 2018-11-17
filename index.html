@@ -11,12 +11,26 @@
     	<script src="./js/script.js"></script>
 	</head>
 
-	<body onload="indexstart()">
+	<body style="width:100%; height:100%;">
 
 		<div class="main" id="homemain">
 			<div id="userbox">
-				<div>
-					<h4>Enter Your Email</h4>
+				<div style="text-align:center; padding:10px;">
+					<h3>Enter Your Email</h3>
+				</div>
+				<div style="text-align:center; padding:10px;">
+					<input id="emailform" type="text" name="email">
+					<button id="submitbutton" onclick="emailsub()" value="submit">Submit</button>
+				</div>
+				<div style="text-align:center; padding:10px; font-size: 14px;">
+					<p>*This site will use cookies to offer an improved experience on this site and analyze site traffic, and will store data on your computer. By clicking the checkbox below, you consent to our use of cookies on this computer</p>
+				</div>
+				<div style="text-align:center; font-size:14px">
+					<form>
+						<label for="cookieaccept">Accept Policy:</label>
+						<input id="cookieaccept" type="checkbox" name="CookieAccept"/>
+					</form>
+					<p style="margin:5px;"><a href="cookiepolicy.html">Read Cookie Policy</a></p>
 				</div>
 			</div>
 		</div>
