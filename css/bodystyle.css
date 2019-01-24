@@ -16,7 +16,9 @@ html {
 
 }
 
-body {
+body{
+	height:100%;
+
 	min-width: 1200px;
 
 	margin: 0;
@@ -116,3 +118,4 @@ a {
 	margin: 5px;
 
 }
+

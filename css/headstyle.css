@@ -9,7 +9,13 @@ a {
 
 }
 
-button {
+p {
+	font-size: 18px;
+
+
+}
+
+.tocbut {
     display: inline-block;
     border: none;
     padding: none;
@@ -28,17 +34,17 @@ button {
     height: 100%;
 }
 
-button:hover,
-button:focus {
+.tocbut:hover,
+.tocbut:focus {
     background: rgba(255,255,255,0.0);
 }
 
-button:focus {
+.tocbut:focus {
     outline: inherit;
     outline-offset: none;
 }
 
-button:active {
+.tocbut:active {
     transform: none;
 }
 
@@ -48,6 +54,7 @@ button:active {
 	width: 100%;
 	position: fixed;
 	height: 170px;
+	z-index: 2;
 
 }
 

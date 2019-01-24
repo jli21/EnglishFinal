@@ -1,0 +1,31 @@
+p {
+	color: #d1e1d1;
+}
+
+.infoheader {
+	color: #d1e1d1;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.wc-header {
+	color: #d1e1d1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.infotxt {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.wc-hangingindent {
+	padding-left: 40px;
+	text-indent: -40px;
+
+}

@@ -8,21 +8,22 @@
 		<link rel="stylesheet" type="text/css" href="./css/bodystyle.css">
     	<link rel="stylesheet" type="text/css" href="./css/headstyle.css">
     	<link rel="stylesheet" type="text/css" href="./css/footstyle.css">
+    	<link rel="stylesheet" type="text/css" href="./css/timelinestyle.css">
     	<script src="./js/script.js"></script>
 	</head>
 
 	<body onload="startup()">
 		<div class="header">
 			<div class="titlecontainer">
-				<h1 class="title">How the Early Americans' Pursuit of Glory, God, and Gold Shaped Modern Society</h1>
+				<h1 class="title">Analysis of Early American Literature in Respect to Modern Culture</h1>
 			</div>
 			<table class="TOC">
 				<tbody>
 					<tr>
-						<td id="TOC0"" class="TOCitem" style="border-left: none;"><button onclick="TOC0()">Overview</button></td>
-						<td id="TOC1" class="TOCitem"><button onclick="TOC1()">Timeline</button></td>
-						<td id="TOC2" class="TOCitem"><button onclick="TOC2()">Conclusion</button></td>
-						<td id="TOC3" class="TOCitem" style="border-right: none;"><button onclick="TOC3()">Sources</button></td>
+						<td id="TOC0"" class="TOCitem" style="border-left: none;"><button class = 'tocbut' onclick='TOCchange("toc0")'>Overview</button></td>
+						<td id="TOC1" class="TOCitem"><button class = 'tocbut' onclick='TOCchange("toc1")'>Timeline</button></td>
+						<td id="TOC2" class="TOCitem"><button class = 'tocbut' onclick="TOCchange('toc2')">Conclusion</button></td>
+						<td id="TOC3" class="TOCitem" style="border-right: none;"><button class = 'tocbut' onclick='TOCchange("toc3")'>Sources</button></td>
 					</tr>
 				</tbody>
 			</table>
@@ -31,6 +32,9 @@
 		<div class="main">
 			<div class="pages" id="page0">
 				<div id="space"></div>
+				<div class='section'>
+					<h1>How Early Americans' Quest For God, Gold, and Glory Shaped Modern Society</h1>
+				</div>
 				<div class="section">
 					<div style="width:70%; float:left;">
 						<h3 class="sechead">Overview</h3>
@@ -72,22 +76,108 @@
 				</div>
 
 				<hr/>
-
 			</div>
+
+			<!--
 			<div class="pages" id="page1">
 				<div id="space"></div>
-				<div class="section">
-					<div style="width:70%; float:left;">
-						<h3 class="sechead">Timeline</h3>
-						<p class="secinfo">Hi</p>
+				<div id='timelinebox'>
+					<div id='timelinevertline'></div>
+					<button class='timelinebut'>Pre-Colonial</button>
+					<button class='timelinebut'>Colonial</button>
+					<button class='timelinebut'>Market Revolution</button>
+					<button class='timelinebut'>Antebellum</button>
+					<button class='timelinebut'>Civil War and Reconstruction</button>
+					<button class='timelinebut'>Westward Expansion</button>
+				</div>
+				<div id='timelinedescbox'>
+					<div style="top:400px; left:80px;" class='tltxttbox'>
+						<p>Hi</p>
 					</div>
-					<div style="width:30% display:flex; float:right;">
-						<img class="secother" src="./images/example.jpg" style="float:left; margin-right:10%;">
-						<blockquote class="secother" style="float:right;">Quote</blockquote>
+					<div style="top:800px; left:160px; float: right" class='tltxtbox'>
+						<p>Hi</p>
 					</div>
-					
+					<div style="top:1200px; left:80px; " class='tltxtbox'>
+						<p>Hi</p>
+					</div>
+					<div style="top:1600px; left:160px; float: right;" class='tltxtbox'>
+						<p>Hi</p>
+					</div>
+					<div style="top:2000px; left:80px;" class='tltxtbox'>
+						<p>Hi</p>
+					</div>
+					<div style="top:2400px; left:160px; float: right;" class='tltxtbox'>
+						<p>Hi</p>
+					</div>
 				</div>
 			</div>
+		-->
+
+			<div class="pages" id="page1">
+				<div id="space"></div>
+				<table>
+					<tr>
+						<td>
+							<div class='tltxttbox'>
+								<p>&emsp;&emsp;The early explorers and adventurers who came to North America had a profound impact upon the culture of modern America, shaping the following centuries in many ways. From the first voyage of Columbus in 1492, to the French fur traders and the English Puritans settling in America, all of these cultures had an impact of the American life today. Many of their lives revolved around their desire for <b>God</b>, <b>Glory</b>, and <b>Gold</b>, and through this, they shaped American society.</p>
+							</div>
+						</td>
+						<td align='center'><button onclick='goTo("precolonial");' class='timelinebut'>Pre-Colonial</button></td>
+						<td><img src="./images/example.jpg"/></td>
+					</tr>
+					<tr>
+						<td><img src="./images/example.jpg"/></td>
+						<td align='center'><button class='timelinebut'>Colonial</button></td>
+						<td>
+							<div class='tltxtbox'>
+								<p>Hi</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class='tltxtbox'>
+								<p>Hi</p>
+							</div>
+						</td>
+						<td align='center'><button class='timelinebut'>Market Revolution</button></td>
+						<td><img src="./images/example.jpg"/></td>
+					</tr>
+					<tr>
+						<td><img src="./images/example.jpg"/></td>
+						<td align='center'><button class='timelinebut'>Civil War and Reconstruction</button></td>
+						<td>
+							<div class='tltxtbox'>
+								<p>Hi</p>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class='tltxtbox'>
+								<p>Hi</p>
+							</div>
+						</td>
+						<td align='center'><button class='timelinebut'>Antebellum</button></td>
+						<td><img src="./images/example.jpg"/></td>
+					</tr>
+					<tr>
+						<td><img src="./images/example.jpg"/></td>
+						<td align='center'><button class='timelinebut'>Westward Expansion</button></td>
+						<td>
+							<div class='tltxtbox'>
+								<p>Hi</p>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<div id='timelinebox'>
+					<div id='timelinevertline'></div>
+				</div>
+			</div>
+
+
 			<div class="pages" id="page2">
 				<div id="space"></div>
 				<div class="section">

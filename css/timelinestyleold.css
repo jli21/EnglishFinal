@@ -1,0 +1,58 @@
+
+
+#timelinevertline {
+	background-color: #5a5245;
+	height: 2000px;
+	width: 20px;
+	margin: auto;
+	position: absolute;
+	top: 390px;
+	z-index: -1;
+}
+
+.timelinebut {
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	background-color: #254e58;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0px;
+	border: 10px solid #d1e1d1;
+	color: #d1e1d1;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+	z-index: 1;
+}
+
+.timelinebut:hover {
+	background-color: #254e58;
+	background-image: linear-gradient(rgba(37, 78, 88), rgba(50, 101, 116, .5));
+}
+
+#timelinebox {
+	flex: 1; 
+	display:flex; 
+	flex-direction:column; 
+	justify-content:center; 
+	align-items:center; 
+	box-sizing:border-box;
+}
+
+#timelinedescbox {
+	position: absolute;
+	display: normal;
+	z-index: 0;
+	top: 240px;
+	height: 2350px;
+	width: 100%;
+
+}
+
+.tltxtbox {
+	padding: 20px;
+	width: 50%;
+	height: 300px;
+
+}
